@@ -123,7 +123,7 @@ public class WriterController {
             return new ModelAndView(model, "templates/admin_layout.vtl");
         }, new VelocityTemplateEngine());
 
-        //      EDIT
+//      EDIT
         get("/admin/writer/:id/edit", (req, res) -> {
             int writerId = Integer.parseInt(req.params(":id"));
 

@@ -125,6 +125,15 @@ public class Seeds {
         article6.addTag(tag3);
         article6.addCategory(category4);
 
+        article1.indexVisitCounter();
+        article1.indexVisitCounter();
+        article1.indexVisitCounter();
+
+        article2.indexVisitCounter();
+        article2.indexVisitCounter();
+
+        article3.indexVisitCounter();
+
         DBHelper.update(article1);
         DBHelper.update(article2);
         DBHelper.update(article3);
